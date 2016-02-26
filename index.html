@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Angular project template</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link type="text/css" rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Angular -->
+<script src="/bower_components/angular/angular.js"></script>
+
+<!-- my app -->
+<script src="/app/app.js"></script>
+<script src="/app/controller.js"></script>
+<script src="/app/filter.js"></script>
+<script src="/app/service.js"></script>
+
+<body ng-app="app" ng-controller="MainCtrl">
+	
+	<div class="container">
+		<h1>Project</h1>
+		<ul id="states">
+				<li ng-repeat="c in data.states">
+					<a href="{{c.url}}" target="_blank">
+						<p>
+							{{c.name}}
+						</p>
+					</a>
+				</li>
+			</ul>
+	</div>
+</body>
+</html>

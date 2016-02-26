@@ -1,0 +1,30 @@
+{
+  "name": "Angular projec template",
+  "version": "0.0.1",
+  "authors": [
+    "carlos.baeza <carlos.baeza@posteo.de>"
+  ],
+  "description": "angular project template",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angularjs",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.5.0",
+    "jquery": "~2.2.1"
+  }
+}

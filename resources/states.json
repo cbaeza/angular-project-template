@@ -1,0 +1,68 @@
+{
+  "stateList" : [
+    {
+      "name" : "Baden-Württemberg",
+      "url" : "/Bundesland/Baden-Wuerttemberg"
+    },
+    {
+      "name" : "Bayern",
+      "url" : "/Bundesland/Bayern"
+    },
+    {
+      "name" : "Berlin",
+      "url" : "/Bundesland/Berlin"
+    },
+    {
+      "name" : "Brandenburg",
+      "url" : "/Bundesland/Brandenburg"
+    },
+    {
+      "name" : "Bremen",
+      "url" : "/Bundesland/Bremen"
+    },
+    {
+      "name" : "Hamburg",
+      "url" : "/Bundesland/Hamburg"
+    },
+    {
+      "name" : "Hessen",
+      "url" : "/Bundesland/Hessen"
+    },
+    {
+      "name" : "Mecklenburg-Vorpommern",
+      "url" : "/Bundesland/Mecklenburg-Vorpommern"
+    },
+    {
+      "name" : "Niedersachsen",
+      "url" : "/Bundesland/Niedersachsen"
+    },
+    {
+      "name" : "Nordrhein-Westfalen",
+      "url" : "/Bundesland/Nordrhein-Westfalen"
+    },
+    {
+      "name" : "Rheinland-Pfalz",
+      "url" : "/Bundesland/Rheinland-Pfalz"
+    },
+    {
+      "name" : "Saarland",
+      "url" : "/Bundesland/Saarland"
+    },
+    {
+      "name" : "Sachsen",
+      "url" : "/Bundesland/Sachsen"
+    },
+    {
+      "name" : "Sachsen-Anhalt",
+      "url" : "/Bundesland/Sachsen-Anhalt"
+    },
+    {
+      "name" : "Schleswig-Holstein",
+      "url" : "/Bundesland/Schleswig-Holstein"
+    },
+    {
+      "name" : "Thüringen",
+      "url" : "/Bundesland/Thueringen"
+    }
+  ] 
+}
