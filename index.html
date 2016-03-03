@@ -25,16 +25,16 @@
 <body ng-app="app" ng-controller="MainCtrl">
 	
 	<div class="container">
-		<h1>Project</h1>
-		<ul id="states">
-				<li ng-repeat="c in data.states">
-					<a href="{{c.url}}" target="_blank">
-						<p>
-							{{c.name}}
-						</p>
-					</a>
-				</li>
-			</ul>
+		<h1>States</h1>
+		<div id="states" class="row">
+			<div ng-repeat="c in data.states"  class="col-md-4">
+				<a href="{{c.url}}" target="_blank">
+					<p>
+						{{c.name}}
+					</p>
+				</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
